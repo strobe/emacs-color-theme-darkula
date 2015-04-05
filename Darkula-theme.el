@@ -16,7 +16,7 @@
  '(font-lock-builtin-face ((t (:foreground "#cc7832" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-comment-delimiter-face ((t (:weight normal :slant italic :underline nil :inverse-video nil :foreground "#465a61" :inherit (font-lock-comment-face)))))
  '(font-lock-comment-face ((t (:weight normal :slant italic :underline nil :inverse-video nil :foreground "#527748"))))
- '(font-lock-constant-face ((t (:foreground "##4e807d" :inverse-video nil :underline nil :slant normal :weight normal))))
+ '(font-lock-constant-face ((t (:foreground "#A9B7C6" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-doc-face ((t (:foreground "#527748" font-lock-comment-face :inverse-video nil :underline nil :slant italic :weight normal))))
  '(font-lock-function-name-face ((t (:foreground "#fec66c" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-keyword-face ((t (:foreground "#cc7832" :inverse-video nil :underline nil :slant normal :weight normal))))
