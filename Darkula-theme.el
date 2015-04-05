@@ -1,5 +1,5 @@
 (deftheme Darkula
-  "Created 2013-09-10.")
+  "Edited at 2014-04-06.")
 
 (custom-theme-set-faces
  'Darkula
@@ -15,19 +15,20 @@
  '(trailing-whitespace ((t (:weight normal :slant normal :underline nil :inverse-video t :foreground "#c60007" :background "red1"))))
  '(font-lock-builtin-face ((t (:foreground "#cc7832" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-comment-delimiter-face ((t (:weight normal :slant italic :underline nil :inverse-video nil :foreground "#465a61" :inherit (font-lock-comment-face)))))
- '(font-lock-comment-face ((t (:weight normal :slant italic :underline nil :inverse-video nil :foreground "#629755"))))
- '(font-lock-constant-face ((t (:foreground "#9876aa" :inverse-video nil :underline nil :slant normal :weight normal))))
- '(font-lock-doc-face ((t (:inherit font-lock-comment-face :inverse-video nil :underline nil :slant italic :weight normal))))
+ '(font-lock-comment-face ((t (:weight normal :slant italic :underline nil :inverse-video nil :foreground "#527748"))))
+ '(font-lock-constant-face ((t (:foreground "##4e807d" :inverse-video nil :underline nil :slant normal :weight normal))))
+ '(font-lock-doc-face ((t (:foreground "#527748" font-lock-comment-face :inverse-video nil :underline nil :slant italic :weight normal))))
  '(font-lock-function-name-face ((t (:foreground "#fec66c" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-keyword-face ((t (:foreground "#cc7832" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-negation-char-face ((t (:weight normal :slant normal :underline nil :inverse-video nil :foreground "#c60007"))))
  '(font-lock-preprocessor-face ((t (:weight normal :slant normal :underline nil :inverse-video nil :foreground "#bd3612" :inherit (font-lock-builtin-face)))))
  '(font-lock-regexp-grouping-backslash ((t (:weight normal :slant normal :underline nil :inverse-video nil :foreground "#a57705" :inherit (bold)))))
  '(font-lock-regexp-grouping-construct ((t (:weight normal :slant normal :underline nil :inverse-video nil :foreground "#bd3612" :inherit (bold)))))
- '(font-lock-string-face ((t (:foreground "#a6c25c" :inverse-video nil :underline nil :slant normal :weight normal))))
+ '(font-lock-string-face ((t (:foreground "#617a53" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-type-face ((t (:foreground "#4e807d" :inverse-video nil :underline nil :slant normal :weight normal))))
- '(font-lock-variable-name-face ((t (:foreground "#9876aa" :inverse-video nil :underline nil :slant normal :weight normal))))
+ '(font-lock-variable-name-face ((t (:foreground "#A9B7C6" :inverse-video nil :underline nil :slant normal :weight normal))))
  '(font-lock-warning-face ((t (:weight bold :slant normal :underline nil :inverse-video nil :foreground "#c60007" :inherit (error)))))
+ '(scala-font-lock:var-face ((t (:foreground "#A9B7C6"))))
  '(button ((t (:inherit (link)))))
  '(link ((t (:weight normal :slant normal :underline (:color foreground-color :style line) :inverse-video nil :foreground "#5859b7"))))
  '(link-visited ((t (:weight normal :slant normal :underline (:color foreground-color :style line) :inverse-video nil :foreground "#c61b6e" :inherit (link)))))
@@ -45,6 +46,7 @@
  '(match ((((class color) (min-colors 88) (background light)) (:background "yellow1")) (((class color) (min-colors 88) (background dark)) (:background "RoyalBlue3")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "blue")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (isearch)))))
- '(default ((t (:family nil :foundry nil :width normal :height 120 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#A9B7C6" :background "#2B2B2B" :stipple nil :inherit nil)))))
+ '(default ((t (:family nil :foundry nil :width normal :height 120 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#A9B7C6" :background "#2B2B2B" :stipple nil :inherit nil))))
+  )
 
 (provide-theme 'Darkula)
